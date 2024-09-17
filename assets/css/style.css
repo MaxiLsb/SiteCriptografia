@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url(style2.css);
+body{
+    background-color: var(--branco-fundo);
+}
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 500px;
+    background-color: var(--azul-bebe);
+    border: 2px solid;
+    border-color: var(--azul-escurinho);
+    border-radius: 20px;
+    opacity: 0.9;
+}
+.todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: var(--azul-normal);
+    border: 2px solid;
+    border-color: var(--azul-escurinho);
+    font-size: 15px;
+    padding: 1em;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 15px 15px 15px 15px;
+    color: var(--branco-fundo);
+    font-family: 'Space Mono',monospace;
+
+}
+p{
+    color: var(--azul-escurinho);
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+.lista-cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+.lista-item-cabecalho{
+    display: inline-block;
+    padding: 30px;
+    background-color: var(--azul-bebe);
+    border-radius: 15px;
+    margin: 0 5px;
+    color: var(--azul-escurinho);
+    border: 2px solid;
+    border-color: var(--azul-escurinho);
+}
+.lista-item-cabecalho:hover{
+    
+    background-color: var(--azul-normal);
+
+}
+a:link, a:visited{
+    color: var(--azul-escurinho);
+}
+
+a:hover{
+    color: var(--branco-fundo);
+}
+
